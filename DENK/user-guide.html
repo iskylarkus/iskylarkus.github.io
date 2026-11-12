@@ -1,1 +1,242 @@
 
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Denk - Kullanım Rehberi &amp; Kredi Tarifesi / User Guide &amp; Credit Schedule</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #0F172A;
+            color: #F8FAFC;
+            line-height: 1.65;
+            margin: 0;
+            padding: 32px 16px;
+        }
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: #1E293B;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 32px;
+        }
+        h1, h2 {
+            color: #10B981;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #334155;
+            margin: 32px 0;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(16, 185, 129, 0.16);
+            color: #10B981;
+            padding: 4px 12px;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .card {
+            background: #0F172A;
+            border: 1px solid #334155;
+            border-radius: 14px;
+            padding: 16px 20px;
+            margin: 16px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            background: #0F172A;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 12px 14px;
+            text-align: left;
+            border-bottom: 1px solid #334155;
+            font-size: 14px;
+        }
+        th {
+            background: rgba(16, 185, 129, 0.14);
+            color: #10B981;
+            font-weight: 700;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        .pill {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 999px;
+            font-weight: 700;
+            font-size: 12px;
+        }
+        .pill-free {
+            background: rgba(16, 185, 129, 0.18);
+            color: #10B981;
+        }
+        .pill-cost {
+            background: rgba(245, 158, 11, 0.18);
+            color: #FBBF24;
+        }
+        .links {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        a {
+            color: #10B981;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <span class="badge">Denk Personal Budget &amp; Offline-First Finance</span>
+    <h1>Kullanım Rehberi &amp; Kredi Tarifesi</h1>
+
+    <div class="card">
+        <strong>Özet Başlangıç Paketi:</strong><br />
+        • <strong>7 Gün Tam Erişimli Ücretsiz Deneme:</strong> İlk 7 gün boyunca tüm özellikler (kayıt, Excel, CSV, PDF, JSON yedekleme) sınırsızdır ve <strong>0 kredi</strong> harcar.<br />
+        • <strong>+30 Hediye Kredi:</strong> Kurulumda cüzdanınıza otomatik tanımlanır; deneme sonrasında da kesintisiz devam etmenizi sağlar.<br />
+        • <strong>-5 Çevrimdışı Avans Limiti:</strong> İnternetiniz yokken günlük gelir/gider kaydınız kesilmesin diye yalnızca yeni işlem girişi <strong>-5 krediye</strong> kadar avans kullanabilir. İhracat ve yedekleme özellikleri kesinlikle eksi bakiyeye düşmez.
+    </div>
+
+    <h2>Özellik ve Kredi Tablosu</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Özellik / İşlem</th>
+                <th>İlk 7 Gün &amp; Premium</th>
+                <th>7 Gün Sonrası (Kredi ile)</th>
+                <th>Açıklama</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gelir / Gider / Transfer Kaydı</td>
+                <td><span class="pill pill-free">0 Kredi</span></td>
+                <td><span class="pill pill-cost">1 Kredi</span></td>
+                <td>Kaydettikten sonra "Geri Al" derseniz 1 kredi iade edilir. İnternet yoksa -5 avansa kadar çalışır.</td>
+            </tr>
+            <tr>
+                <td>Görüntüleme, Düzenleme, Silme, Grafikler, Hatırlatıcı</td>
+                <td><span class="pill pill-free">0 Kredi</span></td>
+                <td><span class="pill pill-free">0 Kredi</span></td>
+                <td>Kendi finansal geçmişiniz her zaman tamamen ücretsizdir.</td>
+            </tr>
+            <tr>
+                <td>CSV Dışa Aktarım</td>
+                <td><span class="pill pill-free">0 Kredi</span></td>
+                <td><span class="pill pill-cost">5 Kredi</span></td>
+                <td>Dosya konum seçiciden vazgeçerseniz kredi düşülmez.</td>
+            </tr>
+            <tr>
+                <td>Excel (.xlsx) Dışa Aktarım</td>
+                <td><span class="pill pill-free">0 Kredi</span></td>
+                <td><span class="pill pill-cost">10 Kredi</span></td>
+                <td>Biçimlendirilmiş tablo raporu. Dosya kaydedildiğinde düşer.</td>
+            </tr>
+            <tr>
+                <td>Profesyonel PDF Raporu</td>
+                <td><span class="pill pill-free">0 Kredi</span></td>
+                <td><span class="pill pill-cost">10 Kredi</span></td>
+                <td>Aylık özet ve kategori analizi PDF paylaşımı.</td>
+            </tr>
+            <tr>
+                <td>Tam Yedek Alma (JSON Kaydet / Paylaş)</td>
+                <td><span class="pill pill-free">0 Kredi</span></td>
+                <td><span class="pill pill-cost">15 Kredi</span></td>
+                <td>Tüm hesap, kategori ve işlem yedeğini dışa aktarır.</td>
+            </tr>
+            <tr>
+                <td>Yedekten Geri Yükleme (JSON İçe Aktar)</td>
+                <td><span class="pill pill-free">0 Kredi</span></td>
+                <td><span class="pill pill-free">0 Kredi</span></td>
+                <td><strong>Her zaman ücretsiz!</strong> Cihaz değişikliğinde veya veri kurtarmada asla kredi istemez.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>İpuçları ve Güvenlik</h2>
+    <ul>
+        <li><strong>Ödüllü Reklam Komboları:</strong> Peş peşe reklam izleyerek tek seferde ekstra bonus kredi biriktirebilirsiniz.</li>
+        <li><strong>Çevrimdışı Gizlilik:</strong> Verileriniz yalnızca cihazınızın şifreli/izole yerel alanında saklanır; düzenli aralıklarla JSON yedeği almanız önerilir.</li>
+        <li><strong>Biyometrik Kilit:</strong> Ayarlar'dan parmak izi / yüz tanıma kilidini aktif ederek ekran önizlemelerini bile gizleyebilirsiniz.</li>
+    </ul>
+
+    <hr />
+
+    <h1>User Guide &amp; Credit Schedule (English)</h1>
+
+    <div class="card">
+        <strong>Welcome Starter Package:</strong><br />
+        • <strong>7-Day Full Free Trial:</strong> All features (entries, Excel, CSV, PDF, JSON backup) are unlimited and cost <strong>0 credits</strong> for your first 7 days.<br />
+        • <strong>+30 Gift Credits:</strong> Credited automatically on install to carry you seamlessly past the trial.<br />
+        • <strong>-5 Offline Advance Limit:</strong> Only daily transaction entry can dip down to <strong>-5 credits</strong> when offline so you never miss logging a payment. Export &amp; backup tools strictly require a non-negative sufficient credit balance.
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Feature / Action</th>
+                <th>First 7 Days &amp; PRO</th>
+                <th>After 7 Days (Credits)</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>New Income / Expense / Transfer Entry</td>
+                <td><span class="pill pill-free">0 Credits</span></td>
+                <td><span class="pill pill-cost">1 Credit</span></td>
+                <td>Undo refunds 1 credit. Offline advance supported down to -5 credits.</td>
+            </tr>
+            <tr>
+                <td>View, Edit, Delete, Charts, Biometric Lock</td>
+                <td><span class="pill pill-free">0 Credits</span></td>
+                <td><span class="pill pill-free">0 Credits</span></td>
+                <td>Access to your own recorded financial data is always free.</td>
+            </tr>
+            <tr>
+                <td>CSV Export</td>
+                <td><span class="pill pill-free">0 Credits</span></td>
+                <td><span class="pill pill-cost">5 Credits</span></td>
+                <td>Deducted only after you confirm a save destination.</td>
+            </tr>
+            <tr>
+                <td>Excel (.xlsx) Export</td>
+                <td><span class="pill pill-free">0 Credits</span></td>
+                <td><span class="pill pill-cost">10 Credits</span></td>
+                <td>Formatted spreadsheet workbook; canceling file picker costs 0.</td>
+            </tr>
+            <tr>
+                <td>Professional PDF Report</td>
+                <td><span class="pill pill-free">0 Credits</span></td>
+                <td><span class="pill pill-cost">10 Credits</span></td>
+                <td>Monthly summary &amp; category breakdown PDF share.</td>
+            </tr>
+            <tr>
+                <td>Full JSON Backup (Save or Share)</td>
+                <td><span class="pill pill-free">0 Credits</span></td>
+                <td><span class="pill pill-cost">15 Credits</span></td>
+                <td>Exports all accounts, categories, budgets, and transactions.</td>
+            </tr>
+            <tr>
+                <td>Restore Backup (Import JSON)</td>
+                <td><span class="pill pill-free">0 Credits</span></td>
+                <td><span class="pill pill-free">0 Credits</span></td>
+                <td><strong>Always free!</strong> Recovering or migrating your data never costs credits.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="links">
+        <a href="privacy-policy.html">Privacy Policy &amp; Terms of Use / Gizlilik Politikası</a>
+    </div>
+</div>
+</body>
+</html>
+
